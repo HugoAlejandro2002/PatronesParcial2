@@ -18,6 +18,6 @@ public class Estudiante extends Jugador {
 
     @Override
     public void received(String msg) {
-        System.out.println(">ESTUDIANTE: "+this.getNombre() + " recibio el mensaje: [" + msg + "]");
+        System.out.println(">Estudiante("+this.getRanking()+"): "+this.getNombre() + " de alias "+this.getAlias()+" recibio el mensaje: " + msg);
     }
 }

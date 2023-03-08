@@ -20,11 +20,11 @@ public class Main {
         mediator.addJugador(docente2);
         mediator.addJugador(docente3);
 
-        docente1.sendTeam("Hola team de docentes");
+        docente1.sendTeam("Pidan la tarea");
 
-        estudiante1.sendTeam("Hola team de estudiantes");
+        estudiante1.sendTeam("Pasa la tarea");
 
-        estudiante3.sendAll("Hola a todos");
+        estudiante3.sendAll("Dia de entrega");
 
 
     }
