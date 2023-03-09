@@ -47,8 +47,8 @@ public class Estudiante {
 
     public void shoInfo(){
         System.out.println("--Estudiante--");
-        System.out.println("nombre: "+nombre);
-        System.out.println("fechaNacimiento: "+fechaNacimiento);
-        System.out.println(" carrera: "+carrera);
+        System.out.println("Nombre: "+nombre);
+        System.out.println("Fecha de nacimiento: "+fechaNacimiento);
+        System.out.println("Carrera: "+carrera);
     }
 }
